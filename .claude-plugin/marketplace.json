@@ -1,0 +1,20 @@
+{
+  "name": "bailey-marketplace",
+  "owner": {
+    "name": "syran"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace"
+  },
+  "plugins": [
+    {
+      "name": "claude-mem",
+      "description": "Persistent memory system for Claude Code. Automatically captures tool usage, compresses observations with AI, and re-injects relevant context into future sessions.",
+      "category": "memory",
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    }
+  ]
+}
