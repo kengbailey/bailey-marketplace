@@ -20,10 +20,7 @@
       "name": "llama-tune",
       "description": "Tune llama-server for optimal performance and GPU utilization. Analyzes GPU VRAM, model architecture (dense/MoE), and generates launch commands for maximum tok/s.",
       "category": "inference",
-      "source": {
-        "source": "local",
-        "path": "plugins/llama-tune"
-      }
+      "source": "./plugins/llama-tune"
     }
   ]
 }
