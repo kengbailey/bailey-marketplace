@@ -1,0 +1,20 @@
+{
+  "name": "llama-tune",
+  "version": "1.0.0",
+  "description": "Tune llama-server for optimal performance and GPU utilization. Analyzes GPU VRAM, model architecture (dense/MoE), and generates launch commands for maximum tok/s.",
+  "author": {
+    "name": "syran"
+  },
+  "repository": "https://github.com/kengbailey/bailey-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "llama.cpp",
+    "llama-server",
+    "inference",
+    "gpu",
+    "moe",
+    "performance",
+    "gguf",
+    "tuning"
+  ]
+}
